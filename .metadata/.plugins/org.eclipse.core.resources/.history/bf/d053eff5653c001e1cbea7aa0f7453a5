@@ -1,0 +1,8 @@
+package classe;
+
+public class Produto {
+	//Criando os tipos de uma classe - acessaremos a partir da class ProdutoTeste
+	String nome;
+	double preco;
+	double desconto;
+}

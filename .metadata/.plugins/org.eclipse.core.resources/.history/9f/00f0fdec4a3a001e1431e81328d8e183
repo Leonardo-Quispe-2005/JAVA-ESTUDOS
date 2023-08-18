@@ -1,0 +1,29 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioLetraPorLetra {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		String palavra = "";
+		
+		do {
+			System.out.print("Digite uma palavra: ");
+			palavra = entrada.nextLine();
+			
+			palavra.split(palavra);
+			
+			System.out.println(palavra+"\n");
+			
+			
+		} while (!palavra.equalsIgnoreCase("sair"));
+			
+		
+		System.out.println(palavra);
+		
+		
+		entrada.close();
+	}
+}

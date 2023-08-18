@@ -1,0 +1,23 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioValores {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int maiorValor = 0;
+		int contador = 0;
+		
+		do {
+			
+			System.out.println("Digite um número");
+			
+		} while (condition);
+		
+		
+		
+		
+		entrada.close();
+	}
+}

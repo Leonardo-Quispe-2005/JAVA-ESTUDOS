@@ -1,0 +1,14 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioLetraPorLetra {
+	public static void main(String[] args) {
+		String texto = "1234";
+		String[] textoSeparado = new String[texto.length()];
+
+		for(int i = 0; i < textoSeparado.length; i++){
+		    textoSeparado[i] = "" + texto.charAt(i);
+		}
+	}
+}

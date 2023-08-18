@@ -1,0 +1,39 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioLetraPorLetra {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		char[] letras = null;
+		String palavra = "";
+		
+		do {
+			System.out.print("Digite uma palavra: ");
+			palavra = entrada.nextLine();
+			
+			letras = palavra.toCharArray();
+			// feito isso em letras vc terá:
+			// letras[0] = 'J';
+			// letras[1] = 'a';
+			// letras[2] = 'v';
+			// letras[3] = 'a';
+			System.out.println("quantidade de letras: " + letras.length);
+			
+			
+			
+			
+			
+			
+			
+			
+		} while (!palavra.equalsIgnoreCase("sair"));
+			
+		
+		System.out.println(palavra);
+		
+		
+		entrada.close();
+	}
+}

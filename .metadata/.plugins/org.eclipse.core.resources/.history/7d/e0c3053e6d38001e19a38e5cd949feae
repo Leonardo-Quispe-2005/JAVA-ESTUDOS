@@ -1,0 +1,24 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioAdivinhacao {
+	public static void main(String[] args) {
+		
+		int aleatorio = 45;
+		int tentativas = 10;
+		int contador = 0;
+		
+		Scanner entrada = new Scanner(System.in);
+		
+			System.out.print("Digite um número: ");
+			int n1 = entrada.nextInt();
+			
+			do {
+				System.out.print("Digite um número: ");
+			} while (n1 == aleatorio);
+		
+		entrada.close();
+		
+	}
+}

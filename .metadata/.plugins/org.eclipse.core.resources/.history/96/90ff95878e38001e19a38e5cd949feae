@@ -1,0 +1,30 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioNumeroPositivos {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int positivos = 0;
+		int soma, contador = 0;
+		
+		System.out.println("Digite 1 número positivo para continuar");
+		System.out.println("Digite 1 número negativo para finalizar\n");
+		
+		System.out.print("Digite um número: ");
+		int n1 = entrada.nextInt();
+		
+		while (n1 >= 0) {
+			System.out.print("Digite um número: ");
+			n1 = entrada.nextInt();
+			contador++;
+			System.out.println(contador);
+			
+		}
+		
+		System.out.println("Você finalizou o programa");
+		
+		entrada.close();
+	}
+}

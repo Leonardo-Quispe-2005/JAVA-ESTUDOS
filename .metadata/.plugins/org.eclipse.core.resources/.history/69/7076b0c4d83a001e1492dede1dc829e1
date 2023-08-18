@@ -1,0 +1,20 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioValores {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		double valor1,valor2,valor3,valor4,valor5,
+		valor6,valor7,valor8,valor9,valor10;
+		
+		while (entrada.hasNext()) {
+			valor1 = entrada.nextDouble();
+			
+		}
+		
+		
+		entrada.close();
+	}
+}

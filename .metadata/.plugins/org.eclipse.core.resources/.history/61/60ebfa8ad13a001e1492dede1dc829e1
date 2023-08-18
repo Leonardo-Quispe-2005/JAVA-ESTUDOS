@@ -1,0 +1,17 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioLetraPorLetra {
+	public static void main(String[] args) {
+		 String nome = "CARLOS Eduardo Martins Dutra do Rego";
+		    String primeiraLetraNomeSobrenome = "";
+		    for (char letra : nome.toCharArray()) {
+		        if (Character.isUpperCase(letra)) {
+		            primeiraLetraNomeSobrenome += letra;
+		        }
+		    }
+		    System.out.println("resultado: "+ primeiraLetraNomeSobrenome);
+		}
+	}
+

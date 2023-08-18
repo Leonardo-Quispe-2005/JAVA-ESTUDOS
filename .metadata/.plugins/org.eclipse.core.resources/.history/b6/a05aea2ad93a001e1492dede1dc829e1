@@ -1,0 +1,43 @@
+package Controle;
+
+import java.util.Scanner;
+
+public class ExercicioValores {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Insira o valor 1: ");
+		double valor1 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 2: ");
+		double valor2 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 3: ");
+		double valor3 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 4: ");
+		double valor4 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 5: ");
+		double valor5 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 6: ");
+		double valor6 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 7: ");
+		double valor7 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 8: ");
+		double valor8 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 9: ");
+		double valor9 = entrada.nextDouble();
+		
+		System.out.println("Insira o valor 10: ");
+		double valor10 = entrada.nextDouble();
+		
+		
+		
+		entrada.close();
+	}
+}
